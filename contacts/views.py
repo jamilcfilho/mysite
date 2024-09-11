@@ -2,7 +2,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
 
-from .forms import NameForm, ContactForm
+from .forms import ContactForm, NameForm
 
 
 def create(request):

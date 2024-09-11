@@ -8,7 +8,7 @@ def authenticate_user(request):
     password = request.POST["password"]
     user = authenticate_user(request, username=username, password=password)
     if user is not None:
-        login(request, user)
+        pass
 
     else:
         pass
